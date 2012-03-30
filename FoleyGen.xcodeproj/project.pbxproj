@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE4E59F51523D1A200C46122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4E59F41523D1A200C46122 /* UIKit.framework */; };
+		BE4E59F71523D1A200C46122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4E59F61523D1A200C46122 /* Foundation.framework */; };
+		BE4E59F91523D1A200C46122 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4E59F81523D1A200C46122 /* CoreGraphics.framework */; };
+		BE4E59FF1523D1A200C46122 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE4E59FD1523D1A200C46122 /* InfoPlist.strings */; };
+		BE4E5A011523D1A200C46122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E5A001523D1A200C46122 /* main.m */; };
+		BE4E5A051523D1A200C46122 /* FGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E5A041523D1A200C46122 /* FGAppDelegate.m */; };
+		BE4E5A081523D1A200C46122 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E5A061523D1A200C46122 /* MainStoryboard.storyboard */; };
+		BE4E5A0B1523D1A200C46122 /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E5A0A1523D1A200C46122 /* FGViewController.m */; };
+		BE4E5A141523D3DF00C46122 /* boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = BE4E5A111523D3DF00C46122 /* boing.wav */; };
+		BE4E5A151523D3DF00C46122 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = BE4E5A121523D3DF00C46122 /* pop.wav */; };
+		BE4E5A161523D3DF00C46122 /* tweet.wav in Resources */ = {isa = PBXBuildFile; fileRef = BE4E5A131523D3DF00C46122 /* tweet.wav */; };
+		BE4E5A181523D41900C46122 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4E5A171523D41900C46122 /* AudioToolbox.framework */; };
+		BE4E5A1A1523DB5A00C46122 /* iHaveUnderstanding.wav in Resources */ = {isa = PBXBuildFile; fileRef = BE4E5A191523DB5A00C46122 /* iHaveUnderstanding.wav */; };
+		BE4E5A1C1523DBA200C46122 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4E5A1B1523DBA200C46122 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE4E59F01523D1A200C46122 /* FoleyGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoleyGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4E59F41523D1A200C46122 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE4E59F61523D1A200C46122 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE4E59F81523D1A200C46122 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE4E59FC1523D1A200C46122 /* FoleyGen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoleyGen-Info.plist"; sourceTree = "<group>"; };
+		BE4E59FE1523D1A200C46122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE4E5A001523D1A200C46122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE4E5A021523D1A200C46122 /* FoleyGen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoleyGen-Prefix.pch"; sourceTree = "<group>"; };
+		BE4E5A031523D1A200C46122 /* FGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGAppDelegate.h; sourceTree = "<group>"; };
+		BE4E5A041523D1A200C46122 /* FGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGAppDelegate.m; sourceTree = "<group>"; };
+		BE4E5A071523D1A200C46122 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BE4E5A091523D1A200C46122 /* FGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGViewController.h; sourceTree = "<group>"; };
+		BE4E5A0A1523D1A200C46122 /* FGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGViewController.m; sourceTree = "<group>"; };
+		BE4E5A111523D3DF00C46122 /* boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boing.wav; sourceTree = "<group>"; };
+		BE4E5A121523D3DF00C46122 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		BE4E5A131523D3DF00C46122 /* tweet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tweet.wav; sourceTree = "<group>"; };
+		BE4E5A171523D41900C46122 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BE4E5A191523DB5A00C46122 /* iHaveUnderstanding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = iHaveUnderstanding.wav; sourceTree = "<group>"; };
+		BE4E5A1B1523DBA200C46122 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE4E59ED1523D1A200C46122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4E5A1C1523DBA200C46122 /* AVFoundation.framework in Frameworks */,
+				BE4E5A181523D41900C46122 /* AudioToolbox.framework in Frameworks */,
+				BE4E59F51523D1A200C46122 /* UIKit.framework in Frameworks */,
+				BE4E59F71523D1A200C46122 /* Foundation.framework in Frameworks */,
+				BE4E59F91523D1A200C46122 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE4E59E51523D1A200C46122 = {
+			isa = PBXGroup;
+			children = (
+				BE4E5A1B1523DBA200C46122 /* AVFoundation.framework */,
+				BE4E5A171523D41900C46122 /* AudioToolbox.framework */,
+				BE4E59FA1523D1A200C46122 /* FoleyGen */,
+				BE4E59F31523D1A200C46122 /* Frameworks */,
+				BE4E59F11523D1A200C46122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE4E59F11523D1A200C46122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E59F01523D1A200C46122 /* FoleyGen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE4E59F31523D1A200C46122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E59F41523D1A200C46122 /* UIKit.framework */,
+				BE4E59F61523D1A200C46122 /* Foundation.framework */,
+				BE4E59F81523D1A200C46122 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE4E59FA1523D1A200C46122 /* FoleyGen */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E5A031523D1A200C46122 /* FGAppDelegate.h */,
+				BE4E5A041523D1A200C46122 /* FGAppDelegate.m */,
+				BE4E5A061523D1A200C46122 /* MainStoryboard.storyboard */,
+				BE4E5A091523D1A200C46122 /* FGViewController.h */,
+				BE4E5A0A1523D1A200C46122 /* FGViewController.m */,
+				BE4E59FB1523D1A200C46122 /* Supporting Files */,
+			);
+			path = FoleyGen;
+			sourceTree = "<group>";
+		};
+		BE4E59FB1523D1A200C46122 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E5A191523DB5A00C46122 /* iHaveUnderstanding.wav */,
+				BE4E5A111523D3DF00C46122 /* boing.wav */,
+				BE4E5A121523D3DF00C46122 /* pop.wav */,
+				BE4E5A131523D3DF00C46122 /* tweet.wav */,
+				BE4E59FC1523D1A200C46122 /* FoleyGen-Info.plist */,
+				BE4E59FD1523D1A200C46122 /* InfoPlist.strings */,
+				BE4E5A001523D1A200C46122 /* main.m */,
+				BE4E5A021523D1A200C46122 /* FoleyGen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE4E59EF1523D1A200C46122 /* FoleyGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4E5A0E1523D1A200C46122 /* Build configuration list for PBXNativeTarget "FoleyGen" */;
+			buildPhases = (
+				BE4E59EC1523D1A200C46122 /* Sources */,
+				BE4E59ED1523D1A200C46122 /* Frameworks */,
+				BE4E59EE1523D1A200C46122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoleyGen;
+			productName = FoleyGen;
+			productReference = BE4E59F01523D1A200C46122 /* FoleyGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE4E59E71523D1A200C46122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = ETSU;
+			};
+			buildConfigurationList = BE4E59EA1523D1A200C46122 /* Build configuration list for PBXProject "FoleyGen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE4E59E51523D1A200C46122;
+			productRefGroup = BE4E59F11523D1A200C46122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE4E59EF1523D1A200C46122 /* FoleyGen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE4E59EE1523D1A200C46122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4E59FF1523D1A200C46122 /* InfoPlist.strings in Resources */,
+				BE4E5A081523D1A200C46122 /* MainStoryboard.storyboard in Resources */,
+				BE4E5A141523D3DF00C46122 /* boing.wav in Resources */,
+				BE4E5A151523D3DF00C46122 /* pop.wav in Resources */,
+				BE4E5A161523D3DF00C46122 /* tweet.wav in Resources */,
+				BE4E5A1A1523DB5A00C46122 /* iHaveUnderstanding.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE4E59EC1523D1A200C46122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4E5A011523D1A200C46122 /* main.m in Sources */,
+				BE4E5A051523D1A200C46122 /* FGAppDelegate.m in Sources */,
+				BE4E5A0B1523D1A200C46122 /* FGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE4E59FD1523D1A200C46122 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4E59FE1523D1A200C46122 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE4E5A061523D1A200C46122 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4E5A071523D1A200C46122 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE4E5A0C1523D1A200C46122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE4E5A0D1523D1A200C46122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE4E5A0F1523D1A200C46122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoleyGen/FoleyGen-Prefix.pch";
+				INFOPLIST_FILE = "FoleyGen/FoleyGen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE4E5A101523D1A200C46122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoleyGen/FoleyGen-Prefix.pch";
+				INFOPLIST_FILE = "FoleyGen/FoleyGen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE4E59EA1523D1A200C46122 /* Build configuration list for PBXProject "FoleyGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4E5A0C1523D1A200C46122 /* Debug */,
+				BE4E5A0D1523D1A200C46122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4E5A0E1523D1A200C46122 /* Build configuration list for PBXNativeTarget "FoleyGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4E5A0F1523D1A200C46122 /* Debug */,
+				BE4E5A101523D1A200C46122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE4E59E71523D1A200C46122 /* Project object */;
+}
