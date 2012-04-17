@@ -4,4 +4,5 @@ The second function is 3 buttons that are linked to a short sound. There is a sw
 
 Screenshot:
 
-https://lh6.googleusercontent.com/iN_Cfve0K2EmRQrc6IAP8-HVeoNeL5hDNmAvarPWV6pyt5D-T1crBQHBnf8DPm9iQyI89DFXVcMgs0vvZxZqgaZEtg
+<a target='_blank' title='ImageShack - Image And Video Hosting' href='http://imageshack.us/photo/my-images/831/screenshot20120330at101.png/'><img src='http://img831.imageshack.us/img831/8104/screenshot20120330at101.png' border='0'/></a>
+
